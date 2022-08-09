@@ -17,3 +17,5 @@
 | `重命名`分支             | `git branch -m` 旧分支名 新分支名                                                                                                                    |
 | `合并`分支               | `git merge` develop 合并 develop 分支到当前分支                                                                                                      |
 | 取消合并                 | `git merge --abort`                                                                                                                                  |
+| 忽略文件                 | `git update-index --assume-unchanged` 文件名                                                                                                         |
+| 取消忽略                 | `git update-index --no-assume-unchanged` 文件名                                                                                                      |
