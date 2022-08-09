@@ -19,3 +19,5 @@
 | 取消合并                 | `git merge --abort`                                                                                                                                  |
 | 忽略文件                 | `git update-index --assume-unchanged` 文件名                                                                                                         |
 | 取消忽略                 | `git update-index --no-assume-unchanged` 文件名                                                                                                      |
+| 获取远端分支到本地       | `git fetch origin develop:develop`                                                                                                                   |
+| 本地分支与远程分支关联   | `git branch --set-upstream-to=origin/develop develop`                                                                                                |
